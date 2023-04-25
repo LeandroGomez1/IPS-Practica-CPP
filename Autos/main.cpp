@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-/*class Motor {
+class Motor {
 private:
     int Cylinders;
     int Horsepower;
@@ -21,22 +21,21 @@ public:
         cout << "Fuel: " << Fuel << endl;
     }
 };
-*/
+
 class Car {
 private:
     string Make;
     string Model;
-  //  Motor Motor;
+    Motor Motor;
     string Color;
     string Transmission;
     int Kilometers;
     string Domain;
 public:
-    Car(string make, string model, string color, string transmission, int km, string dom) {
-            //: Motor(motor1) {
+    Car(string make, string model, string color, string transmission, int km, string dom, class Motor motor1) {
         Make = make;
         Model = model;
-    //    Motor = motor1;
+        Motor = motor1;
         Color = color;
         Transmission = transmission;
         Kilometers = km;
@@ -46,7 +45,7 @@ public:
         cout << "Make: " << Make << endl;
         cout << "Model: "<< Model << endl;
         cout << "Color: " << Color << endl;
-  //      Motor.getMotorInfo();
+        Motor.getMotorInfo();
         cout << "Transmission: " << Transmission << endl;
         cout << "Km: " << Kilometers << endl;
         cout << "Domain: " << Domain << endl;
