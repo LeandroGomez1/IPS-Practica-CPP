@@ -1,0 +1,3 @@
+C:/Users/leand/Desktop/workspace/IPS-Practica-CPP/ejPersonales/Vehiculos/cmake-build-debug/CMakeFiles/Vehiculos.dir
+C:/Users/leand/Desktop/workspace/IPS-Practica-CPP/ejPersonales/Vehiculos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/leand/Desktop/workspace/IPS-Practica-CPP/ejPersonales/Vehiculos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
