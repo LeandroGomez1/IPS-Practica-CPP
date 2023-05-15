@@ -37,7 +37,8 @@ public:
      * @param monto: monto a ingresar.
      */
     void setMonto(int monto) {
-        this->monto = monto;
+        if(monto > 0)
+            this->monto = monto;
     }
     
     /**

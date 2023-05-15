@@ -31,6 +31,7 @@ public:
     }
     /**
      * @brief Funcion que devuelve el nombre de la persona.
+     * 
      * @return Nombre de la persona.
      */
     string getNombre() {

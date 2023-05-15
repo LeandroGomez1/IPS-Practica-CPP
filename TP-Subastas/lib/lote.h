@@ -12,7 +12,7 @@ class Lote {
 private:
     int nLote;
     string nombre;
-    Oferta oferta;
+    Oferta ofertaMax;
 public:
     /**
      * @brief Constructor para la clase Lote
@@ -35,8 +35,8 @@ public:
      *
      * @param ofertaMax: Valor maximo ofertado por el lote.
      */
-    void setMaxOferta(Oferta ofertaMax) {
-        oferta = std::move(ofertaMax);
+    void setMaxOferta(Oferta oferta) {
+        ofertaMax = std::move(oferta);
     }
 
     /**

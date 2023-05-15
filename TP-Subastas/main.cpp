@@ -31,9 +31,9 @@ int main() {
     Subasta subasta1;
 
     //Crea y agrega lotes a la lista de la subasta.
-    Lote lote1 = {1, "Rolex Submariner 6538"};
+    Lote lote1 = {1, "Maquinas de gimnasio"};
     subasta1.setLoteList(lote1);
-    Lote lote2 = {2, "Dom Perignon 1953"};
+    Lote lote2 = {2, "Cajas de vino"};
     subasta1.setLoteList(lote2);
 
     //Ingresa la cantidad de lotes a la subasta.
@@ -50,7 +50,7 @@ int main() {
     
     //Ofertas realizadas para el lote 1.
     cout << "-----------------" << endl;
-    cout << "Ofertas para " << lote1.getLoteName() << endl;
+    cout << "Ofertas para el lote '" << lote1.getLoteName() << "'" << endl;
 
     //Crea e ingresa la oferta y monto de cada persona.
     Oferta oferta1 = {persona1};
@@ -73,12 +73,12 @@ int main() {
 
     //Imprime ganador del lote 1.
     cout << "-----------------" << endl;
-    cout << ofertaMax.getOfertante() << " ha ganado su " << lote1.getLoteName() << 
-    " por un monto de $" << ofertaMax.getMonto() << endl;
+    cout << ofertaMax.getOfertante() << " ha ganado el lote '" << lote1.getLoteName() << 
+    "' por un monto de $" << ofertaMax.getMonto() << endl;
 
     //Ofertas realizadas para el lote 2.
     cout << "-----------------" << endl;
-    cout << "Ofertas para " << lote2.getLoteName() << endl;
+    cout << "Ofertas para el lote '" << lote2.getLoteName() << "'" << endl;
 
     //Ingresa la oferta y monto de cada persona.
     oferta1.setMonto(750440);
@@ -98,8 +98,8 @@ int main() {
 
     //Imprime ganador del lote 2.
     cout << "-----------------" << endl;
-    cout << ofertaMax.getOfertante() << " ha ganado su " << lote2.getLoteName() << 
-    " por un monto de $" << ofertaMax.getMonto() << endl;
+    cout << ofertaMax.getOfertante() << " ha ganado el lote '" << lote2.getLoteName() << 
+    "' por un monto de $" << ofertaMax.getMonto() << endl;
 
     //Muestra la cantidad de lotes que se ofertaron.
     cout << "-----------------" << endl;
