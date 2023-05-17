@@ -1,3 +1,0 @@
-C:/Users/leand/Desktop/workspace/IPS-Practica-CPP/TP-Subastas/cmake-build-debug/CMakeFiles/TP_Subastas.dir
-C:/Users/leand/Desktop/workspace/IPS-Practica-CPP/TP-Subastas/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/leand/Desktop/workspace/IPS-Practica-CPP/TP-Subastas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
