@@ -22,7 +22,7 @@ protected:
     string Domain;
 public:
     Vehicle(string make, string model, string color, string transmission, int year,
-            string dom) { //: Person(std::move(name), std::move(surname)) {
+        string dom) { //: Person(std::move(name), std::move(surname)) {
         Make = std::move(make);
         Model = std::move(model);
         Color = std::move(color);
@@ -32,7 +32,7 @@ public:
         Domain = std::move(dom);
     }
     void setKm(int km) {
-        if(km >= 0)
+        if (km >= 0)
             Kilometers = km;
     }
     void getVehicleID() {

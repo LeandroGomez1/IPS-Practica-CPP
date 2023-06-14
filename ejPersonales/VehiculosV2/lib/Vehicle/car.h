@@ -7,18 +7,18 @@
 
 #include "vehicle.h"
 
-class Car:public Vehicle {
+class Car :public Vehicle {
 public:
-    Car(string make, string model, string color, string transmission, int year, string dom):
-            Vehicle(std::move(make),std::move(model),std::move(color),
-                    std::move(transmission), year,std::move(dom)) {
+    Car(string make, string model, string color, string transmission, int year, string dom) :
+        Vehicle(std::move(make), std::move(model), std::move(color),
+            std::move(transmission), year, std::move(dom)) {
 
     }
     void getInfo() override {
         cout << "----------" << endl;
         cout << "Vehicle type: Car" << endl;
         cout << "Make: " << Make << endl;
-        cout << "Model: "<< Model << endl;
+        cout << "Model: " << Model << endl;
         cout << "Color: " << Color << endl;
         cout << "Transmission: " << Transmission << endl;
         cout << "Km: " << Kilometers << endl;
