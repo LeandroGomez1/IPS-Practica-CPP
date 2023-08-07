@@ -1,4 +1,4 @@
-﻿# CMakeList.txt : CMake project for CacheManager, include source and define
+﻿# CMakeList.txt : CMake project for TP-CacheManager, include source and define
 # project specific logic here.
 #
 cmake_minimum_required (VERSION 3.8)
@@ -9,13 +9,13 @@ if (POLICY CMP0141)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
-project ("CacheManager")
+project ("TP-CacheManager")
 
 # Add source to this project's executable.
-add_executable (CacheManager "CacheManager.cpp" "CacheManager.h")
+add_executable (TP-CacheManager "main.cpp" "CacheManager.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET CacheManager PROPERTY CXX_STANDARD 20)
+  set_property(TARGET TP-CacheManager PROPERTY CXX_STANDARD 20)
 endif()
 
 # TODO: Add tests and install targets if needed.
